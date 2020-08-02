@@ -1,6 +1,9 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/material.dart';
 
-void main() =>  runApp (MyApp());
+import 'package:flutterlayout/area.dart';
+
+void main() =>  runApp (MyArea());
 
 class MyApp extends StatelessWidget {
   @override
@@ -23,8 +26,9 @@ class MyApp extends StatelessWidget {
         ),
         body: Container(
           margin: EdgeInsets.all(100.0),
-          width: 200.0,
-            height: 200.0,
+          width: 500.0,
+            height: 400.0,
+         // child: FlutterLogo(),
           decoration: BoxDecoration(
             color: Colors.orange,
             gradient: LinearGradient(
@@ -33,6 +37,10 @@ class MyApp extends StatelessWidget {
                 tileMode: TileMode.mirror,
               //tileMode: TileMode.repeated,
               colors: [Colors.purple[50],Colors.purple[500]]
+            ),
+            image: DecorationImage(
+              image:NetworkImage('http://bit.ly/flutter_tiger'),
+              fit: BoxFit.cover
             ),
             shape: BoxShape.rectangle,
             //All direction
