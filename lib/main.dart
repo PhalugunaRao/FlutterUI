@@ -1,11 +1,25 @@
 import 'package:flutter/material.dart';
-import 'package:flutter/material.dart';
+import 'package:flutterlayout/home_widget.dart';
 
-import 'package:flutterlayout/area.dart';
 
-void main() =>  runApp (MyArea());
+
+void main() =>  runApp (MyApp());
 
 class MyApp extends StatelessWidget {
+  @override
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      title: 'Travel',
+      theme: ThemeData(
+        primarySwatch: Colors.green,
+      ),
+      home: Home(),
+    );
+  }
+}
+
+
+/*class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -48,11 +62,11 @@ class MyApp extends StatelessWidget {
               Radius.circular(50.0)
             ),
             //only
-           /* borderRadius: BorderRadius.only(
+           *//* borderRadius: BorderRadius.only(
               topLeft: Radius.circular(25.0),
               bottomRight: Radius.circular(25.0)
 
-            )*/
+            )*//*
           ),
         ),
         floatingActionButton: FloatingActionButton(
@@ -85,4 +99,4 @@ class MyApp extends StatelessWidget {
 
     );
   }
-}
+}*/
