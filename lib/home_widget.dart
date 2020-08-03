@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:flutterlayout/pages.dart';
 
+import 'package:flutterlayout/home_view.dart';
+
 class Home extends StatefulWidget {
   @override
   _HomeState createState() => _HomeState();
@@ -9,7 +11,7 @@ class Home extends StatefulWidget {
 class _HomeState extends State<Home> {
   int _currentIndex = 0;
   final List<Widget> _children = [
-    HomePage(),
+    HomeView(),
     ExplorePage(),
     PastTripsPage()
 
