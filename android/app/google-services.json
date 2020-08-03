@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "378374019976",
+    "firebase_url": "https://travel-budget-e1ac4.firebaseio.com",
+    "project_id": "travel-budget-e1ac4",
+    "storage_bucket": "travel-budget-e1ac4.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:378374019976:android:5946cf0da2ea6af5a5b83d",
+        "android_client_info": {
+          "package_name": "com.example.flutterlayout"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "378374019976-ekg62umq78d6u7s1h2hfv1c5nc85t365.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCN6jH93HP23WGoWmQ2vDxj85kF9Vr7oU0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "378374019976-ekg62umq78d6u7s1h2hfv1c5nc85t365.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
