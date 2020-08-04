@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:intl/intl.dart';
-import 'package:flutterlayout/Trip.dart';
+import 'package:flutterlayout/models/Trip.dart';
 
 
 class HomeView extends StatelessWidget {
